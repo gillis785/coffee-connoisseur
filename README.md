@@ -20,6 +20,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 ## VSCode Extensions:
 
+```bash
 vscode-icons
 ES7 React/Redux/GraphQL/React-Native
 ESLint
@@ -31,7 +32,7 @@ Prettier
 Quokka.js
 Tailwind CSS IntelliSense
 PostCSS Language Support // This fixes any errors that appear in your code such as unknown at rule @tailwind and unknown at rule @apply
-
+```
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
