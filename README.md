@@ -18,6 +18,21 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
+## VSCode Extensions:
+
+vscode-icons
+ES7 React/Redux/GraphQL/React-Native
+ESLint
+GitLens
+JavaScript and TypeScript Nightly
+Live Share
+Palenight Theme
+Prettier
+Quokka.js
+Tailwind CSS IntelliSense
+PostCSS Language Support // This fixes any errors that appear in your code such as unknown at rule @tailwind and unknown at rule @apply
+
+
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More
