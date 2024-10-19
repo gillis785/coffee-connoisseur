@@ -20,7 +20,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 ## VSCode Extensions:
 
-```bash
+```
 vscode-icons
 ES7 React/Redux/GraphQL/React-Native
 ESLint
