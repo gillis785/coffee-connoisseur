@@ -3,14 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-
   html,
   body {
     padding: 0;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
       Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    /*bg-gradient bg-cover bg-[50%] bg-repeat h-full;*/
+    @apply bg-gradient bg-cover bg-[50%] bg-repeat h-full;
   }
 
   h1 {
@@ -56,10 +55,9 @@
 }
 
 @layer components {
-
   /* glass-morphism */
   .glass {
-    @apply border border-solid border-[hsla(0, 0%, 100%, 0.2)] bg-gray-951 backdrop-blur-[10px] hover:border hover:border-solid hover:border-white;
+    @apply border border-solid border-[hsla(0,0%,100%,0.2)] bg-gray-951 backdrop-blur-[10px] hover:border hover:border-solid hover:border-white;
     -webkit-backdrop-filter: blur(10px);
   }
 
