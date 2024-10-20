@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 // import localFont from "next/font/local";
-import { IBM_Plex_Sans, Inter } from "next/font/google";
+// import { IBM_Plex_Sans, Inter } from "next/font/google";
+import { IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
 
-/* const geistSans = localFont({
+/*const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
   weight: "100 900",
 });
+
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
@@ -19,14 +21,15 @@ const ibmPlexSans = IBM_Plex_Sans({
   display: 'swap', 
   subsets: ["latin"], 
   weight: ['500', '600', '700'],
-  variable: '--font-ibmplexsans',
+  // variable: '--font-ibmplexsans',
 });
 
-const inter = Inter({ 
+/*const inter = Inter({ 
   display: 'swap', 
   subsets: ["latin"],
   variable: '--font-inter',
 });
+*/
 
 export const metadata: Metadata = {
   title: 'Coffee Connoisseur',
@@ -40,7 +43,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${ibmPlexSans.variable}`}>
+      <body className={ibmPlexSans.className}>
+      {/* <body className={`${inter.variable} ${ibmPlexSans.variable}`}> */}
         {children}
       </body>
     </html>

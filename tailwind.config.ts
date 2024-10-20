@@ -8,10 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fontFamily: {
+      /* fontFamily: {
         sans: ['var(--font-ibmplexsans)'],
         inter: ['var(--font-inter)'],
-      },
+      }, */
       backgroundImage: {
         gradient: "url('/static/background.png')",
       },
